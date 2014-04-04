@@ -1,4 +1,3 @@
-
 package translate;
 
 import java.awt.print.Paper;
@@ -27,7 +26,7 @@ public class translate {
 	
 public static String yandex_translate(String yandex_lang,String yandex_text) throws IOException, ParseException{
 		
-		String yandex_key = "trnsl.1.1.20140404T200757Z.f74ea350ac6726ed.77c2be0d912730209b7f24efe55dbf84f37ca4cb";
+		String yandex_key = "YANDEX_KEY";
 
 		//Yandex'in sağlamış olduğu url tanımlandı.
 		String yandex_url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key="+yandex_key+"&lang="+yandex_lang+"&text="+yandex_text;
